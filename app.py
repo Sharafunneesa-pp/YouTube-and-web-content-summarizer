@@ -37,7 +37,7 @@ if st.button("Summarize the Content from YT or Website"):
 
     else:
         try:
-            with st.spinner("Waiting..."):
+            with st.spinner("Please Wait..."):
                 ## loading the website or yt video data
                 if "youtube.com" in generic_url:
                     loader=YoutubeLoader.from_youtube_url(generic_url,add_video_info=True)
