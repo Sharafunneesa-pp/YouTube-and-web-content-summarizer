@@ -22,7 +22,7 @@ generic_url=st.text_input("URL",label_visibility="collapsed")
 llm =ChatGroq(model="Gemma-7b-It", groq_api_key=groq_api_key)
 
 prompt_template="""
-Provide a summary of the following content in 300 words:
+Provide a summary of the following content in 250 words:
 Content:{text}
 
 """
